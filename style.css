@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+}
+.gradient { 
+        width: 300px;
+        height: 300px;
+        border-radius: 20%;
+        background: radial-gradient(circle at 30% 100%, yellow 9%, orange 23%, rgb(226, 22, 50) 46%, rgb(243, 41, 75) 65%, blue 92%);      
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+
+.kryg {
+    width: 60px;
+      height: 60px;
+      border-radius: 50%; 
+      border: 15px solid rgb(255, 255, 255);
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+}
+.kryg2 {
+    margin: 0 auto;
+   background-color: #ffffff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px; 
+    position: absolute;
+    top: -80%;
+    left: 70px;
+} 
